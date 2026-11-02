@@ -10,8 +10,10 @@
  */
 pros::Controller controller(pros::E_CONTROLLER_MASTER);
 
-pros::MotorGroup leftMotors({-3, 4}, pros::MotorGearset::green);
-pros::MotorGroup rightMotors({1, -2}, pros::MotorGearset::green);
+pros::MotorGroup leftMotors({-11, -12}, pros::MotorGearset::green);
+pros::MotorGroup rightMotors({19, 20}, pros::MotorGearset::green);
+
+pros::Motor endAffector(0, pros::MotorGearset::blue); //ADD CONNECTION NUMBER HERE
 
 /**
  * Runs initialization code. This occurs as soon as the program is started.
@@ -21,7 +23,7 @@ pros::MotorGroup rightMotors({1, -2}, pros::MotorGearset::green);
  */
 void initialize() {
 	pros::lcd::initialize();
-	pros::lcd::set_text(1, "Hello PROS User!");
+	pros::lcd::set_text(1, "42075D");
 }
 
 /**
