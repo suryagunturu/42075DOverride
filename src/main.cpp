@@ -13,7 +13,7 @@ pros::Controller controller(pros::E_CONTROLLER_MASTER);
 pros::MotorGroup leftMotors({-11, -12}, pros::MotorGearset::green);
 pros::MotorGroup rightMotors({19, 20}, pros::MotorGearset::green);
 
-pros::Motor endAffector(0, pros::MotorGearset::blue); //ADD CONNECTION NUMBER HERE
+pros::Motor endAffector(0, pros::MotorGearset:green); //ADD CONNECTION NUMBER HERE
 
 /**
  * Runs initialization code. This occurs as soon as the program is started.
