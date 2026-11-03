@@ -8,9 +8,9 @@
  * When this callback is fired, it will toggle line 2 of the LCD text between
  * "I was pressed!" and nothing.
  */
-// git checkout: moves back to main
 // git switch 'branch namne': switch to development branch
 // git commit -a -m "name": commits all changes with message
+// git checkout: moves back to main
 // git push origin main: pushes everything to origin
 
 pros::Controller controller(pros::E_CONTROLLER_MASTER);
